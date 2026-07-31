@@ -1,5 +1,5 @@
 {% set name = "sasdata" %}
-{% set version = "0.11.0" %}
+{% set version = "0.12.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/sasdata-{{ version }}.tar.gz
-  sha256: 1c8a8414dd18f80e02ea817c35c235a6e06de129b2a0da001686c741c61ea672
+  sha256: 5b04af3355de952463f559973cc755c24140374632b73e8deff8555bd2f50138
 
 build:
   number: 0
