@@ -30,6 +30,7 @@ requirements:
     - h5py
     - lxml
     - numpy
+    - scipy
 
 test:
   imports:
